@@ -100,8 +100,8 @@ in {
       ghc-stack-profiler-core = quick (hackage "0.3.0.0" "sha256-/vDk6875q0Mgdj2kR8egjqEE1DfRe31ju2ur7h+rfGs=");
       ipedb = quick (hackage "0.2.0.1" "sha256-aClV9PwZCCMaWHjmJX1CbzeqhYjsdbATXjIhju4ETao=");
 
-      lsm-tree = quick (hackage "1.1.1.0" "sha256-Qcv+TBYo9YUsgMnuA006K+2T7ax/AUynE/45vXA82Zo=");
-      tar = quick (hackage "0.7.2.0" "sha256-2ro8OLWOQ7cOwjJMK8qpEsFnmLKJiFMvCSOXqlnFSlA=");
+      lsm-tree = quick (hackage "1.1.1.0" "sha256-2ro8OLWOQ7cOwjJMK8qpEsFnmLKJiFMvCSOXqlnFSlA=");
+      tar = quick (hackage "0.7.2.0" "sha256-Qcv+TBYo9YUsgMnuA006K+2T7ax/AUynE/45vXA82Zo=");
 
       # `lsm-tree >= 1.1` requires `blockio >= 0.2`, which needs `blockio-uring >= 0.2`
       blockio = quick (hackage "0.2.1.0" "sha256-FANzKBEOyi82DK6iRZbwyMjjEGg3zdezGtj/c9ltdZQ=");
